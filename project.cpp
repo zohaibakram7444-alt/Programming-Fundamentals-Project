@@ -7,7 +7,7 @@ using namespace std;
 int getCompChoice()
 {
 
-    return rand() % 3; // computer will chose random numbers between 0 and 2 included both
+    return rand() % 3;
 }
 string numToName(int choice)  // i did this cz i wanted to show user his choice
                             //   and i cannot simply show him  number so i have to convert.
